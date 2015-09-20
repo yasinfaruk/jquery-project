@@ -1,0 +1,117 @@
+body{
+    font-family: arial, sans-serif;
+}
+h1,h2,h3,h4,h5{
+    font-family: arial,sans-serif;
+}
+#navbar{
+    border: none;
+    background: white !important;
+    border-color: white !important;
+}
+#headerNavbar > ul > li > a{
+    margin: 10px 15px !important;
+    font-size: 15px;
+}
+#headerSocialIcon > ul > li > a{
+    border: 2px solid grey;
+    border-radius: 50%;
+    color: darkcyan;
+    margin: 5px 5px;
+}
+.item > img{
+    margin: auto;
+    width: 80%;
+    height: 400px !important;
+}
+#myCarousel{
+    background: white !important;
+}
+.mainServices{
+    margin: 100px 0;
+}
+.service{
+    float: left;
+    /*margin: 0 5px;*/
+    margin-top: 20px;
+}
+.service > img{
+    height: 220px;
+    width: 350px;
+}
+.portfolio img{
+    height: 300px;
+    width: 350px;
+    margin: 10px 0;
+}
+.portfolioText{
+    margin-bottom:  30px;
+}
+.portfolio h1:after{
+    content: "";
+    border-bottom: 2px solid black;
+    width: 300px;
+    /* color: red; */
+    position: absolute;
+    top: 66px;
+    left: 14px;
+    margin-bottom: 30px; 
+}
+.company{
+    text-align: justify;
+}
+.companyImage img{
+    height: 90px;
+    width: 100px;
+    margin: 5px 0;
+}
+#companyImg{
+    /*margin:  0;*/
+    /*padding: 0;*/
+}
+.testimonial{
+    margin: 50px 0;
+}
+.testimonial:after{
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    border: 1px solid grey;
+    background-color: red;
+}
+.testimonial img{
+    height: 100px;
+    width: 100px;
+    margin-top: 5px;
+}
+.list-group-item{
+    border: none;
+    background-color: white ;
+    
+}
+a.list-group-item,
+button.list-group-item {
+  color: #555;
+  border-bottom: 1px solid black !important;
+}
+.facebookList li a {
+    border-bottom: 1px solid black;
+    list-style: none;
+    border-radius: none;
+    font-size: 15px;
+    letter-spacing: 2px;
+
+}
+.facebookList li{
+    list-style: none;
+    border-radius: none !important;
+}
+.facebookList{
+    border-radius: none;
+}
+.facebookListItem{
+    border-bottom-right-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+}
